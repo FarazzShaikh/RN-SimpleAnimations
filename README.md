@@ -3,7 +3,7 @@
 # Simple Animations
 Simple Animations is a simple abstraction of the React Native Animated API built for iOS.
 
-![Demo](https://imgur.com/a/O6c0K1R)
+![Demo](https://imgur.com/a/O6c0K1R.gif)
 
 ## Installation
 ```sh
