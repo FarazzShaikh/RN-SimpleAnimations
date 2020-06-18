@@ -3,11 +3,11 @@
 # Simple Animations
 Simple Animations is a simple abstraction of the React Native Animated API built for iOS.
 
-![Demo](https://github.com/FarazzShaikh/RN-SimpleAnimations/blob/master/assets/demo.gif)
+![Demo](https://www.dropbox.com/s/10eiop1h02el847/out.gif)
 
 ## Installation
 ```sh
-$ npm install rn-simple-animations
+$ npm npm i @farazshaikh/react-native-simple-animations
 ```
 #### iOS
 ```sh
@@ -18,7 +18,7 @@ $ cd ..
 ## Usage
 #### Import
 ```js
-import { RNSimpleAnimations } from 'rn-simple-animations';
+import { RNSimpleAnimations } from '@farazshaikh/react-native-simple-animations';
 ```
 #### Initialize
 Create new animation instance.
@@ -53,7 +53,7 @@ import {
     Animated,
     Easing
 } from 'react-native';
-import { RNSimpleAnimations } from 'rn-simple-animations';
+import { RNSimpleAnimations } from '@farazshaikh/react-native-simple-animations';
 
 export default class Example extends Component {
     constructor(props) {
