@@ -44,6 +44,45 @@ Assign interpolated value to style property.
 ```js
 animation.start()
 ```
+## Example
+Simple example of an animation that drives scale continuously. Example app in *__./examples/src.__*
+```js
+import React, { Component } from 'react';
+import {
+    Button,
+    Animated,
+    Easing
+} from 'react-native';
+import { RNSimpleAnimations } from 'rn-simple-animations';
+
+export default class Example extends Component {
+    constructor(props) {
+        super(props)
+        // instantiation
+        this.animation = new RNSimpleAnimations([1, 1.5, 1], 1000, true) 
+          .setEasing(Easing.ease)
+          .makeContinous()
+    }
+    render() {
+        return (
+            <>
+                <Animated.View style={{
+                    transform: [
+                        scale: this.animation.getValue() // Assignment
+                    ]
+                }}>
+                </Animated.View>
+                <Button 
+                    title={'Trigger'}
+                    onPress={() => {
+                        this.animation.start() // Execution
+                    }}
+                />
+            </>
+        )
+    }
+}
+```
 # Documentation
 Simple Animations is currently available with the following options:
 #### *constructor*
