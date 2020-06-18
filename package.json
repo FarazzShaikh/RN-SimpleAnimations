@@ -1,7 +1,7 @@
 {
   "name": "@farazzshaikh/react-native-simple-animations",
   "title": "Simple Animations",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Simple Animations is a simple abstraction of the React Native Animated API.",
   "main": "index.js",
   "scripts": {
