@@ -1,5 +1,5 @@
 {
-  "name": "rn-simple-animations",
+  "name": "react-native-simple-animations",
   "title": "Simple Animations",
   "version": "1.0.0",
   "description": "Simple Animations is a simple abstraction of the React Native Animated API.",
@@ -31,5 +31,6 @@
   "devDependencies": {
     "react": "^16.9.0",
     "react-native": "^0.61.5"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
